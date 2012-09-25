@@ -19,8 +19,8 @@ Add `jquery-validation-rails` to your Gemfile and run `bundle install`:
 
 Add the following to your `app/assets/javascripts/application.js`:
 
-  //= require jquery.validation
-  //= require jquery.validation.additional-methods
+  //= require jquery.validate
+  //= require jquery.validate.additional-methods
 
 ## Contributing
 
