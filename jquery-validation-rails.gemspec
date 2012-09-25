@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["scriptfu@gmail.com"]
   gem.description   = %q{Integrate the jQuery Validation plugin into the Rails asset pipeline}
   gem.summary       = %q{This jQuery plugin makes simple clientside form validation trivial, while offering lots of option for customization. That makes a good choice if you’re building something new from scratch, but also when you’re trying to integrate it into an existing application with lots of existing markup. The plugin comes bundled with a useful set of validation methods, including URL and email validation, while providing an API to write your own methods. All bundled methods come with default error messages in english and translations into 36 locales.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/danryan/jquery-validation-rails"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
