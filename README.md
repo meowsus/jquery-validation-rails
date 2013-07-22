@@ -22,6 +22,10 @@ Add the following to your `app/assets/javascripts/application.js`:
     //= require jquery.validate
     //= require jquery.validate.additional-methods
 
+Localization:
+
+    //= require jquery.validate.localization/messages_XX
+
 ## Contributing
 
 1. Fork it
