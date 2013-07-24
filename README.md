@@ -15,7 +15,7 @@ Add `jquery-validation-rails` to your Gemfile and run `bundle install`:
 
     gem "jquery-validation-rails"
 
-### Include select2-rails javascript assets
+### Include jquery-validation-rails javascript assets
 
 Add the following to your `app/assets/javascripts/application.js`:
 
