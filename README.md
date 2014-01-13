@@ -26,6 +26,10 @@ Localization:
 
     //= require jquery.validate.localization/messages_XX
 
+## Changes
+
+See [CHANGELOG.md](CHANGELOG.md) in this repository for detailed changes.
+
 ## Contributing
 
 1. Fork it
