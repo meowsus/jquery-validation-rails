@@ -2,7 +2,7 @@
  * Translated default messages for the jQuery validation plugin.
  * Locale: PL (Polish; język polski, polszczyzna)
  */
-(function ($) {
+(function($) {
 	$.extend($.validator.messages, {
 		required: "To pole jest wymagane.",
 		remote: "Proszę o wypełnienie tego pola.",
@@ -14,7 +14,7 @@
 		digits: "Proszę o podanie samych cyfr.",
 		creditcard: "Proszę o podanie prawidłowej karty kredytowej.",
 		equalTo: "Proszę o podanie tej samej wartości ponownie.",
-		accept: "Proszę o podanie wartości z prawidłowym rozszerzeniem.",
+		extension: "Proszę o podanie wartości z prawidłowym rozszerzeniem.",
 		maxlength: $.validator.format("Proszę o podanie nie więcej niż {0} znaków."),
 		minlength: $.validator.format("Proszę o podanie przynajmniej {0} znaków."),
 		rangelength: $.validator.format("Proszę o podanie wartości o długości od {0} do {1} znaków."),

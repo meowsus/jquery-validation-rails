@@ -1,3 +1,7 @@
+## 1.11.1
+
+* Update included jquery.validation files to 1.12.0
+
 ## 1.11.1.1
 
 * Update gemspec to allow Rails >= 4.0 to use gem
