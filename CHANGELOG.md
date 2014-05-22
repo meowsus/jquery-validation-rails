@@ -1,4 +1,4 @@
-## 1.11.1
+## 1.12.0
 
 * Update included jquery.validation files to 1.12.0
 
