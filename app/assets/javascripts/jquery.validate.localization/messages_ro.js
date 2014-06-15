@@ -2,7 +2,7 @@
  * Translated default messages for the jQuery validation plugin.
  * Locale: RO (Romanian, limba română)
  */
-(function ($) {
+(function($) {
 	$.extend($.validator.messages, {
 		required: "Acest câmp este obligatoriu.",
 		remote: "Te rugăm să completezi acest câmp.",
@@ -14,7 +14,7 @@
 		digits: "Te rugăm să introduci doar cifre.",
 		creditcard: "Te rugăm să introduci un numar de carte de credit valid.",
 		equalTo: "Te rugăm să reintroduci valoarea.",
-		accept: "Te rugăm să introduci o valoare cu o extensie validă.",
+		extension: "Te rugăm să introduci o valoare cu o extensie validă.",
 		maxlength: $.validator.format("Te rugăm să nu introduci mai mult de {0} caractere."),
 		minlength: $.validator.format("Te rugăm să introduci cel puțin {0} caractere."),
 		rangelength: $.validator.format("Te rugăm să introduci o valoare între {0} și {1} caractere."),

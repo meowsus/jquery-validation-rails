@@ -2,7 +2,7 @@
  * Translated default messages for the jQuery validation plugin.
  * Language: SL (Slovenian; slovenski jezik)
  */
-(function ($) {
+(function($) {
 	$.extend($.validator.messages, {
 		required: "To polje je obvezno.",
 		remote: "Prosimo popravite to polje.",
@@ -14,7 +14,7 @@
 		digits: "Prosimo vnesite samo števila.",
 		creditcard: "Prosimo vnesite veljavno številko kreditne kartice.",
 		equalTo: "Prosimo ponovno vnesite vrednost.",
-		accept: "Prosimo vnesite vrednost z veljavno končnico.",
+		extension: "Prosimo vnesite vrednost z veljavno končnico.",
 		maxlength: $.validator.format("Prosimo vnesite največ {0} znakov."),
 		minlength: $.validator.format("Prosimo vnesite najmanj {0} znakov."),
 		rangelength: $.validator.format("Prosimo vnesite najmanj {0} in največ {1} znakov."),
