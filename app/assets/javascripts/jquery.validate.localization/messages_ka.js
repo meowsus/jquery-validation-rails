@@ -2,7 +2,7 @@
  * Translated default messages for the jQuery validation plugin.
  * Locale: KA (Georgian; ქართული)
  */
-(function ($) {
+(function($) {
 	$.extend($.validator.messages, {
 		required: "ამ ველის შევსება აუცილებელია.",
 		remote: "გთხოვთ მიუთითოთ სწორი მნიშვნელობა.",
@@ -14,7 +14,7 @@
 		digits: "გთხოვთ მიუთითოთ მხოლოდ ციფრები.",
 		creditcard: "გთხოვთ მიუთითოთ საკრედიტო ბარათის კორექტული ნომერი.",
 		equalTo: "გთხოვთ მიუთითოთ ასეთივე მნიშვნელობა კიდევ ერთხელ.",
-		accept: "გთხოვთ აირჩიოთ ფაილი კორექტული გაფართოებით.",
+		extension: "გთხოვთ აირჩიოთ ფაილი კორექტული გაფართოებით.",
 		maxlength: $.validator.format("დასაშვებია არაუმეტეს {0} სიმბოლო."),
 		minlength: $.validator.format("აუცილებელია შეიყვანოთ მინიმუმ {0} სიმბოლო."),
 		rangelength: $.validator.format("ტექსტში სიმბოლოების რაოდენობა უნდა იყოს {0}-დან {1}-მდე."),

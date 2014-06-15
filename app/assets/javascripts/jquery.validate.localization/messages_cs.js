@@ -2,7 +2,7 @@
  * Translated default messages for the jQuery validation plugin.
  * Locale: CS (Czech; čeština, český jazyk)
  */
-(function ($) {
+(function($) {
 	$.extend($.validator.messages, {
 		required: "Tento údaj je povinný.",
 		remote: "Prosím, opravte tento údaj.",
@@ -14,7 +14,7 @@
 		digits: "Prosím, zadávejte pouze číslice.",
 		creditcard: "Prosím, zadejte číslo kreditní karty.",
 		equalTo: "Prosím, zadejte znovu stejnou hodnotu.",
-		accept: "Prosím, zadejte soubor se správnou příponou.",
+		extension: "Prosím, zadejte soubor se správnou příponou.",
 		maxlength: $.validator.format("Prosím, zadejte nejvíce {0} znaků."),
 		minlength: $.validator.format("Prosím, zadejte nejméně {0} znaků."),
 		rangelength: $.validator.format("Prosím, zadejte od {0} do {1} znaků."),

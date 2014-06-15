@@ -2,7 +2,7 @@
  * Translated default messages for the jQuery validation plugin.
  * Locale: FA (Persian; فارسی)
  */
-(function ($) {
+(function($) {
 	$.extend($.validator.messages, {
 		required: "تکمیل این فیلد اجباری است.",
 		remote: "لطفا این فیلد را تصحیح کنید.",
@@ -14,7 +14,7 @@
 		digits: "لطفا تنها رقم وارد کنید",
 		creditcard: "لطفا کریدیت کارت صحیح وارد کنید.",
 		equalTo: "لطفا مقدار برابری وارد کنید",
-		accept: "لطفا مقداری وارد کنید که ",
+		extension: "لطفا مقداری وارد کنید که ",
 		maxlength: $.validator.format("لطفا بیشتر از {0} حرف وارد نکنید."),
 		minlength: $.validator.format("لطفا کمتر از {0} حرف وارد نکنید."),
 		rangelength: $.validator.format("لطفا مقداری بین {0} تا {1} حرف وارد کنید."),
