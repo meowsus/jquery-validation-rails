@@ -12,7 +12,7 @@
  * Region: AR (Argentina)
  */
 $.extend($.validator.messages, {
-	required: "Este campo es obligatorio.",
+	required: "Respuesta requerida.",
 	remote: "Por favor, completá este campo.",
 	email: "Por favor, escribí una dirección de correo válida.",
 	url: "Por favor, escribí una URL válida.",
