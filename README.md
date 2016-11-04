@@ -1,9 +1,5 @@
 # Jquery::Validation::Rails
 
-# NO LONGER MAINTAINED :(
-
-If you'd like to pick up my slack, please let me know!!
-
 ## Installation
 
 Add this line to your application's Gemfile:
