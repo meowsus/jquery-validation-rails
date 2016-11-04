@@ -18,9 +18,4 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
-
-  gem.add_dependency "thor", "~> 0.14"
-  gem.add_dependency "railties", ">= 3.2", "< 5.0"
-
-  gem.add_development_dependency "bundler", "~> 1.0"
 end
