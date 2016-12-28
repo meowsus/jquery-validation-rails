@@ -41,11 +41,6 @@ Or require all of them:
 ```
 
 
-## Changes
-
-See [CHANGELOG.md](CHANGELOG.md) in this repository for detailed changes.
-
-
 ## Contributing
 
 1. Fork it
