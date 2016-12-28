@@ -1,33 +1,50 @@
 # Jquery::Validation::Rails
 
-## Installation
+[jQuery Validation](https://jqueryvalidation.org/) for the Rails Asset Pipeline.
 
-Add this line to your application's Gemfile:
 
-    gem 'jquery-validation-rails'
+## Installing this Gem
 
-And then execute:
+Add the following line to your project's `Gemfile`:
+```rb
+gem 'jquery-validation-rails`
+```
 
-    $ bundle
+Run the following in your terminal:
+```bash
+cd ~/path/to/my/project
+bundle install
+```
 
-Add `jquery-validation-rails` to your Gemfile and run `bundle install`:
 
-    gem "jquery-validation-rails"
+## Requiring the Assets
 
-### Include jquery-validation-rails javascript assets
+Add, at least, the following to your JavaScript [manifest file](http://guides.rubyonrails.org/asset_pipeline.html#manifest-files-and-directives):
+```js
+//= require jquery.validate
+```
 
-Add the following to your `app/assets/javascripts/application.js`:
+If you need the `accept`, `creditcard`, `extension`, `phoneUS`, or `require_from_group` [additional methods](https://jqueryvalidation.org/documentation/#link-list-of-built-in-validation-methods), add this line too:
+```js
+//= require jquery.validate.additional-methods
+```
 
-    //= require jquery.validate
-    //= require jquery.validate.additional-methods
+If you'd like to take advantage of the library's built-in translations, add the ones you need:
+```js
+//= require jquery.validate.localization/messages_es
+//= require jquery.validate.localization/messages_de
+```
 
-Localization:
+Or require all of them:
+```js
+//= require_tree jquery.validate.localization
+```
 
-    //= require jquery.validate.localization/messages_XX
 
 ## Changes
 
 See [CHANGELOG.md](CHANGELOG.md) in this repository for detailed changes.
+
 
 ## Contributing
 
