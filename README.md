@@ -7,7 +7,7 @@
 
 Add the following line to your project's `Gemfile`:
 ```rb
-gem 'jquery-validation-rails`
+gem 'jquery-validation-rails'
 ```
 
 Run the following in your terminal:
