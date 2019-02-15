@@ -1,3 +1,13 @@
+(function( factory ) {
+	if ( typeof define === "function" && define.amd ) {
+		define( ["jquery", "../jquery.validate"], factory );
+	} else if (typeof module === "object" && module.exports) {
+		module.exports = factory( require( "jquery" ) );
+	} else {
+		factory( jQuery );
+	}
+}(function( $ ) {
+
 /*
  * Translated default messages for the jQuery validation plugin.
  * Locale: BG (Bulgarian; български език)
@@ -14,10 +24,12 @@ $.extend( $.validator.messages, {
 	creditcard: "Моля, въведете валиден номер на кредитна карта.",
 	equalTo: "Моля, въведете същата стойност отново.",
 	extension: "Моля, въведете стойност с валидно разширение.",
-	maxlength: $.validator.format( "Моля, въведете повече от {0} символа." ),
+	maxlength: $.validator.format( "Моля, въведете не повече от {0} символа." ),
 	minlength: $.validator.format( "Моля, въведете поне {0} символа." ),
 	rangelength: $.validator.format( "Моля, въведете стойност с дължина между {0} и {1} символа." ),
 	range: $.validator.format( "Моля, въведете стойност между {0} и {1}." ),
 	max: $.validator.format( "Моля, въведете стойност по-малка или равна на {0}." ),
 	min: $.validator.format( "Моля, въведете стойност по-голяма или равна на {0}." )
 } );
+return $;
+}));

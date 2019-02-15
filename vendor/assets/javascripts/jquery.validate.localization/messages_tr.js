@@ -1,3 +1,13 @@
+(function( factory ) {
+	if ( typeof define === "function" && define.amd ) {
+		define( ["jquery", "../jquery.validate"], factory );
+	} else if (typeof module === "object" && module.exports) {
+		module.exports = factory( require( "jquery" ) );
+	} else {
+		factory( jQuery );
+	}
+}(function( $ ) {
+
 /*
  * Translated default messages for the jQuery validation plugin.
  * Locale: TR (Turkish; Türkçe)
@@ -20,5 +30,7 @@ $.extend( $.validator.messages, {
 	range: $.validator.format( "Lütfen {0} ile {1} arasında bir değer giriniz." ),
 	max: $.validator.format( "Lütfen {0} değerine eşit ya da daha küçük bir değer giriniz." ),
 	min: $.validator.format( "Lütfen {0} değerine eşit ya da daha büyük bir değer giriniz." ),
-	require_from_group: "Lütfen bu alanların en az {0} tanesini doldurunuz."
+	require_from_group: $.validator.format( "Lütfen bu alanların en az {0} tanesini doldurunuz." )
 } );
+return $;
+}));

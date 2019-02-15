@@ -1,3 +1,13 @@
+(function( factory ) {
+	if ( typeof define === "function" && define.amd ) {
+		define( ["jquery", "../jquery.validate"], factory );
+	} else if (typeof module === "object" && module.exports) {
+		module.exports = factory( require( "jquery" ) );
+	} else {
+		factory( jQuery );
+	}
+}(function( $ ) {
+
 /*
  * Translated default messages for the jQuery validation plugin.
  * Locale: NL (Dutch; Nederlands, Vlaams)
@@ -20,6 +30,7 @@ $.extend( $.validator.messages, {
 	range: $.validator.format( "Vul hier een waarde in van minimaal {0} en maximaal {1}." ),
 	max: $.validator.format( "Vul hier een waarde in kleiner dan of gelijk aan {0}." ),
 	min: $.validator.format( "Vul hier een waarde in groter dan of gelijk aan {0}." ),
+	step: $.validator.format( "Vul hier een veelvoud van {0} in." ),
 
 	// For validations in additional-methods.js
 	iban: "Vul hier een geldig IBAN in.",
@@ -31,3 +42,5 @@ $.extend( $.validator.messages, {
 	giroaccountNL: "Vul hier een geldig gironummer in.",
 	bankorgiroaccountNL: "Vul hier een geldig bank- of gironummer in."
 } );
+return $;
+}));
