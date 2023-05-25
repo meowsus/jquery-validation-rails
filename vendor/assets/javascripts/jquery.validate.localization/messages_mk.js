@@ -14,8 +14,8 @@
  */
 $.extend( $.validator.messages, {
 	required: "Полето е задолжително.",
-	remote: "Поправете го ова поле",
-	email: "Внесете правилна e-mail адреса",
+	remote: "Поправете го ова поле.",
+	email: "Внесете правилна e-mail адреса.",
 	url: "Внесете правилен URL.",
 	date: "Внесете правилен датум",
 	dateISO: "Внесете правилен датум (ISO).",
@@ -29,7 +29,7 @@ $.extend( $.validator.messages, {
 	rangelength: $.validator.format( "Внесете вредност со должина помеѓу {0} и {1} знаци." ),
 	range: $.validator.format( "Внесете вредност помеѓу {0} и {1}." ),
 	max: $.validator.format( "Внесете вредност помала или еднаква на {0}." ),
-	min: $.validator.format( "Внесете вредност поголема или еднаква на {0}" )
+	min: $.validator.format( "Внесете вредност поголема или еднаква на {0}." )
 } );
 return $;
 }));
